@@ -10,8 +10,8 @@ description: Nullam et orci eu lorem consequat tincidunt vivamus et sagittis mag
 draft: false
 image: London.jpg
 keywords: ""
-slug: chuhan
-title: Chuhan
+slug: London
+title: London
 ---
 
 ```{r load-libraries, warning=FALSE, message=FALSE, echo=FALSE}

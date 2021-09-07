@@ -84,8 +84,8 @@ params:
       - image: pig01.jpg
         subtitle: I love London
         title: About me 
-        url: blogs/Chuhan_Zhang_pre_programme_assignment_files
-      - image: pic02.jpg
+        url: blogs/London
+      - image: pig02.jpg
         subtitle: Feugiat Amet Tempus
         title: Tempus
         url: blogs/tempus
