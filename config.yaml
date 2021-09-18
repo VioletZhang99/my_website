@@ -25,7 +25,7 @@ params:
         title: Email
     enable: yes
     phone:
-      - phone: (44)07934405831
+      - phone: (44) 07934405831
         title: Phone
   custom_css: []
   custom_js: []
