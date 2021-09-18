@@ -16,7 +16,7 @@ params:
     address:
       - city: London
         country: United Kingdom
-        street: Grove End House
+        street: Grove End House, Grove End Road, St.John's Wood Street
         title: Address
     buttonClear: Clear
     buttonSend: Send message
@@ -25,7 +25,7 @@ params:
         title: Email
     enable: yes
     phone:
-      - phone: (000) 000-0000 x1234
+      - phone: (44)07934405831
         title: Phone
   custom_css: []
   custom_js: []
@@ -35,28 +35,19 @@ params:
     text: Please visit [this page](/)
   favicon: favicon.ico
   footer:
-    copyright: Company Name
+    copyright: London Business SchooL
     enable: yes
     quicklinks:
       - alt: HTML5 UP
         text: 'Design: '
         url: https://www.html5up.net
     social:
-      - icon: fa-twitter
-        label: Twitter
-        url: https://www.twitter.com
-      - icon: fa-facebook
-        label: Facebook
-        url: https://www.facebook.com
-      - icon: fa-instagram
-        label: Instagram
-        url: https://www.instagram.com
       - icon: fa-github
         label: GitHub
-        url: https://www.github.com
+        url: https://github.com/VioletZhang99/my_website
       - icon: fa-linkedin
         label: LinkedIn
-        url: https://www.linkedin.com
+        url: https://www.linkedin.com/in/chuhan-violet-zhang-165660180/
   image: ''
   name: Your name
   navigation:
@@ -81,29 +72,29 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: pig01.jpg
-        subtitle: I love London
+      - image: pic01.jpg
+        subtitle: Inner and Outer Exploration
         title: About me 
-        url: blogs/London
-      - image: pig02.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Tempus
+        url: blogs/aliquam
+      - image: pic02.jpg
+        subtitle: Always strive to make data-driven decisions
+        title: My resume
         url: blogs/tempus
       - image: pic03.jpg
-        subtitle: Lorem Etiam Nullam
-        title: Magna
+        subtitle: Data Manipulation and Data Visualization
+        title: Pre-programme project 
         url: blogs/magna
       - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: Ipsum
+        subtitle: Through teamwork, we completed IBM HR Analytics and 2021 German elections poll analytics
+        title: Project I
         url: blogs/ipsum
       - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
+        subtitle: I conducted data analytics for the General Social Survey data, Climate Change dataset, and bike sharing dataset, involving hypothesis testing, confidence interval construction and statistical analysis.
+        title: Project II
         url: blogs/ipsum
       - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
+        subtitle: I was mainly responsible for analyzing GDP components overtime and among countries, leveraging data cleansing and visualization skills
+        title: Project III
         url: blogs/ipsum
   two:
     buttonText: Get Started
