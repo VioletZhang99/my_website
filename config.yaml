@@ -98,6 +98,6 @@ params:
   two:
     buttonText: Get Started
     enable: yes
-    subtitle: "Welcome to my data analytics universe.My story with data analytics never end."
+    subtitle: "Welcome to my data analytics universe.My story with data analytics never ends."
     title: To be continued...
     url: blogs
