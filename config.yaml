@@ -75,15 +75,15 @@ params:
       - image: pic01.jpg
         subtitle: Inner and Outer Exploration
         title: About me 
-        url: blogs/aliquam
+        url: blogs/about_me
       - image: pic02.jpg
         subtitle: Always strive to make data-driven decisions
         title: My resume
-        url: blogs/tempus
+        url: blogs/resume
       - image: pic03.jpg
         subtitle: Data Manipulation and Data Visualization
         title: Pre-programme project 
-        url: blogs/magna
+        url: blogs/pre_programme
       - image: pic04.jpg
         subtitle: Through teamwork, we completed IBM HR Analytics and 2021 German elections poll analytics
         title: Project I

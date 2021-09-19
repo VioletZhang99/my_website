@@ -7,7 +7,7 @@ description: ""
 draft: false
 image: pic10.jpg
 keywords: ""
-slug: aliquam
+slug: about_me
 title: About me
 ---
 

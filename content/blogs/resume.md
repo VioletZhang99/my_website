@@ -10,7 +10,7 @@ description: Nullam et orci eu lorem consequat tincidunt vivamus et sagittis mag
 draft: false
 image: Chuhan Zhang-Resume1.jpg
 keywords: ""
-slug: tempus
+slug: resume
 title: My resume
 ---
 
