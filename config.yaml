@@ -87,15 +87,15 @@ params:
       - image: pic04.jpg
         subtitle: Through teamwork, we completed IBM HR Analytics and 2021 German elections poll analytics
         title: Project I
-        url: blogs/ipsum
+        url: blogs/project1
       - image: pic05.jpg
         subtitle: I conducted data analytics for the General Social Survey data, Climate Change dataset, and bike sharing dataset, involving hypothesis testing, confidence interval construction and statistical analysis.
         title: Project II
-        url: blogs/ipsum
+        url: blogs/project2
       - image: pic06.jpg
         subtitle: I was mainly responsible for analyzing GDP components overtime and among countries, leveraging data cleansing and visualization skills
         title: Project III
-        url: blogs/ipsum
+        url: blogs/project3
   two:
     buttonText: Get Started
     enable: yes

@@ -15,7 +15,7 @@ Hi! This is Chuhan Zhang and you can call my English name Violet!
 
 I came from Xiamen, China, a beautiful small island with perfect climate.
 
-I graduated from Renmin University of China, with double bachelor degrees in English Langauge and Finance. Now, I am reading my Master in Analytics and Management in London Business School. 
+I graduated from Renmin University of China, with double bachelor degrees in English Langauge and Finance. Now, I am reading my Master in Analytics and Management at London Business School. 
 
 During college, I have completed many projects and internships relatad to data anlaytics, which ignited my interest of a data-driven career. 
 
