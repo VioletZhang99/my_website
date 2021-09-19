@@ -8,39 +8,16 @@ description: Nullam et orci eu lorem consequat tincidunt vivamus et sagittis mag
   sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem
   consequat tincidunt. Vivamus et sagittis tempus.
 draft: false
-image: pic09.jpg
 keywords: ""
-slug: magna
+slug: pre_programme
 title: Pre-programme project
 ---
 
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
-<p>The goal is to test your software installation, to demonstrate competency in Markdown, and in the basics of <code>ggplot</code>.</p>
-<div id="task-1-short-biography-written-using-markdown" class="section level1">
-<h1>Task 1: Short biography written using markdown</h1>
-<p>You should write within this Rmd file a brief biography of yourself using markdown syntax. I know you have already achieved a lot, but a couple of paragraphs is more than enough.</p>
-<p>To achieve full marks, you should include at least 4 of the following elements:</p>
-<ul>
-<li>Headers</li>
-<li>Emphasis (italics or bold)</li>
-<li>Lists</li>
-<li>Links</li>
-<li>Embedding images</li>
-</ul>
-<p>#Name:<strong>Chuhan Zhang</strong></p>
-<p>#Education: Bechelor degree from Renmin University of China</p>
-<p>#Internship
-<em>INTEL CORPORATION
-</em>ByteDance
-*Roland Berger</p>
-<p>#Linkedin Profile: <a href="https://www.linkedin.com/in/chuhan-violet-zhang-165660180" class="uri">https://www.linkedin.com/in/chuhan-violet-zhang-165660180</a></p>
-<p>#Today’s mood []
-(<a href="http://www.51yuansu.com/sc/essjxkotuu.html" class="uri">http://www.51yuansu.com/sc/essjxkotuu.html</a>)</p>
-</div>
-<div id="task-2-gapminder-country-comparison" class="section level1">
-<h1>Task 2: <code>gapminder</code> country comparison</h1>
+<div id="task-1-gapminder-country-comparison" class="section level1">
+<h1>Task 1: <code>gapminder</code> country comparison</h1>
 <p>You have seen the <code>gapminder</code> dataset that has data on life expectancy, population, and GDP per capita for 142 countries from 1952 to 2007. To get a glimpse of the dataframe, namely to see the variable names, variable types, etc., we use the <code>glimpse</code> function. We also want to have a look at the first 20 rows of data.</p>
 <pre class="r"><code>glimpse(gapminder)</code></pre>
 <pre><code>## Rows: 1,704
@@ -118,8 +95,8 @@ plot1</code></pre>
 <p>Overall, the life expectancy since 1952 was growing in all five continents. In 1952, Europe had the higest life expectancy, which was more than 60 on average.On the other hand, Africa had the lowest life expectancy, which was around 40 on average. Currently, Europe and Oceania the highest life expectancy, which are up to 80. Near them, Asia and America increased to about 70.</p>
 </blockquote>
 </div>
-<div id="task-3-brexit-vote-analysis" class="section level1">
-<h1>Task 3: Brexit vote analysis</h1>
+<div id="task-2-brexit-vote-analysis" class="section level1">
+<h1>Task 2: Brexit vote analysis</h1>
 <p>We will have a look at the results of the 2016 Brexit vote in the UK. First we read the data using <code>read_csv()</code> and have a quick glimpse at the data</p>
 <pre class="r"><code>brexit_results &lt;- read_csv(here::here(&quot;data&quot;,&quot;brexit_results.csv&quot;))
 glimpse(brexit_results)</code></pre>
@@ -187,8 +164,8 @@ plot2</code></pre>
 <p>The rate of people born in UK had positive relationship with the leave share. When a seat had more people born in UK, it inclined to mean that the leave share would be higher. Most points were clustered at the right half of the picture. It meant that most seats have people born in UK up to 80 percent and the leave share was on average clustered at more than 50 percent, which directly leave to the decision of Brexit.</p>
 </blockquote>
 </div>
-<div id="task-4-animal-rescue-incidents-attended-by-the-london-fire-brigade" class="section level1">
-<h1>Task 4: Animal rescue incidents attended by the London Fire Brigade</h1>
+<div id="task-3-animal-rescue-incidents-attended-by-the-london-fire-brigade" class="section level1">
+<h1>Task 3: Animal rescue incidents attended by the London Fire Brigade</h1>
 <p><a href="https://data.london.gov.uk/dataset/animal-rescue-incidents-attended-by-lfb">The London Fire Brigade</a> attends a range of non-fire incidents (which we call ‘special services’). These ‘special services’ include assistance to animals that may be trapped or in distress. The data is provided from January 2009 and is updated monthly. A range of information is supplied for each incident including some location information (postcode, borough, ward), as well as the data/time of the incidents. We do not routinely record data about animal deaths or injuries.</p>
 <p>Please note that any cost included is a notional cost calculated based on the length of time rounded up to the nearest hour spent by Pump, Aerial and FRU appliances at the incident and charged at the current Brigade hourly rate.</p>
 <pre class="r"><code>url &lt;- &quot;https://data.london.gov.uk/download/animal-rescue-incidents-attended-by-lfb/8a7d91c2-9aec-4bde-937a-3998f4717cd8/Animal%20Rescue%20incidents%20attended%20by%20LFB%20from%20Jan%202009.csv&quot;
@@ -388,17 +365,4 @@ base_plot + geom_histogram()</code></pre>
 <blockquote>
 <p>The histogram communicate the variability of the incident notional cost the best. It counted the number of each animals rescued and the notional cost accordingly. We could conclude that Horse was the most expensive animals t rescue compared to others, which costed more than 500 for many of its rescue. From the perspective of rescue pattern, we could find that some animals have costs variably (such as rabbit) while some animals have costs concentrated to a small range(such as squirrel).</p>
 </blockquote>
-</div>
-<div id="submit-the-assignment" class="section level1">
-<h1>Submit the assignment</h1>
-<p>Knit the completed R Markdown file as an HTML document (use the “Knit” button at the top of the script editor window) and upload it to Canvas.</p>
-<div id="details" class="section level2">
-<h2>Details</h2>
-<p>If you want to, please answer the following</p>
-<ul>
-<li>Who did you collaborate with: TYPE NAMES HERE</li>
-<li>Approximately how much time did you spend on this problem set: ANSWER HERE</li>
-<li>What, if anything, gave you the most trouble: ANSWER HERE</li>
-</ul>
-</div>
 </div>
