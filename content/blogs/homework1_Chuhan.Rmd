@@ -5,12 +5,13 @@ categories:
 date: "2017-10-31T21:28:43-05:00"
 description: ""
 draft: false
-keywords: "pic08.jpg"
+image: "german.jpg"
+keywords: ""
 slug: project1
 title: Project I -- German Elections 
 ---
 
-```{r, setup, echo=FALSE}
+```{r, setup, include=FALSE}
 knitr::opts_chunk$set(
   message = FALSE, 
   warning = FALSE, 
