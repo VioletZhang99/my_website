@@ -84,11 +84,11 @@ params:
         title: Pre-programme project 
         url: blogs/pre_programme
       - image: pic04.jpg
-        subtitle: Through teamwork, we completed IBM HR Analytics and 2021 German elections poll analytics
+        subtitle: Through teamwork, we completed 2021 German elections poll analytics.
         title: Project I
         url: blogs/project1
       - image: pic05.jpg
-        subtitle: I conducted data analytics for the General Social Survey data, Climate Change dataset, and bike sharing dataset, involving hypothesis testing, confidence interval construction and statistical analysis.
+        subtitle: We conducted data analytics for bike sharing dataset, involving hypothesis testing, confidence interval construction and statistical analysis.
         title: Project II
         url: blogs/project2
       - image: pic06.jpg
