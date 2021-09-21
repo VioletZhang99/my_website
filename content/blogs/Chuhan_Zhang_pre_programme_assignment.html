@@ -2,13 +2,11 @@
 categories:
 - ""
 - ""
-date: "2017-10-31T22:42:51-05:00"
-description: Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna
-  sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa
-  sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem
-  consequat tincidunt. Vivamus et sagittis tempus.
+date: "2017-10-31T21:28:43-05:00"
+description: Look at my first data analytics project at LBS!
 draft: false
 keywords: ""
+image: pic07.jpg
 slug: pre_programme
 title: Pre-programme project
 ---
@@ -176,7 +174,7 @@ animal_rescue &lt;- read_csv(url,
 
 
 glimpse(animal_rescue)</code></pre>
-<pre><code>## Rows: 7,772
+<pre><code>## Rows: 7,873
 ## Columns: 31
 ## $ incident_number               &lt;chr&gt; &quot;139091&quot;, &quot;275091&quot;, &quot;2075091&quot;, &quot;2872091&quot;~
 ## $ date_time_of_call             &lt;chr&gt; &quot;01/01/2009 03:01&quot;, &quot;01/01/2009 08:51&quot;, ~
@@ -199,9 +197,9 @@ glimpse(animal_rescue)</code></pre>
 ## $ borough_code                  &lt;chr&gt; &quot;E09000008&quot;, &quot;E09000008&quot;, &quot;E09000029&quot;, &quot;~
 ## $ borough                       &lt;chr&gt; &quot;Croydon&quot;, &quot;Croydon&quot;, &quot;Sutton&quot;, &quot;Hilling~
 ## $ stn_ground_name               &lt;chr&gt; &quot;Norbury&quot;, &quot;Woodside&quot;, &quot;Wallington&quot;, &quot;Ru~
-## $ uprn                          &lt;chr&gt; &quot;NULL&quot;, &quot;NULL&quot;, &quot;NULL&quot;, &quot;100021491149&quot;, ~
+## $ uprn                          &lt;chr&gt; &quot;NULL&quot;, &quot;NULL&quot;, &quot;NULL&quot;, &quot;100021491149.00~
 ## $ street                        &lt;chr&gt; &quot;Waddington Way&quot;, &quot;Grasmere Road&quot;, &quot;Mill~
-## $ usrn                          &lt;chr&gt; &quot;20500146&quot;, &quot;NULL&quot;, &quot;NULL&quot;, &quot;21401484&quot;, ~
+## $ usrn                          &lt;chr&gt; &quot;20500146.00&quot;, &quot;NULL&quot;, &quot;NULL&quot;, &quot;21401484~
 ## $ postcode_district             &lt;chr&gt; &quot;SE19&quot;, &quot;SE25&quot;, &quot;SM5&quot;, &quot;UB9&quot;, &quot;RM3&quot;, &quot;RM~
 ## $ easting_m                     &lt;chr&gt; &quot;NULL&quot;, &quot;534785&quot;, &quot;528041&quot;, &quot;504689&quot;, &quot;N~
 ## $ northing_m                    &lt;chr&gt; &quot;NULL&quot;, &quot;167546&quot;, &quot;164923&quot;, &quot;190685&quot;, &quot;N~
@@ -228,7 +226,7 @@ glimpse(animal_rescue)</code></pre>
 ## 10     2018   610
 ## 11     2019   604
 ## 12     2020   758
-## 13     2021   547</code></pre>
+## 13     2021   648</code></pre>
 <pre class="r"><code>animal_rescue %&gt;% 
   count(cal_year, name=&quot;count&quot;)</code></pre>
 <pre><code>## # A tibble: 13 x 2
@@ -246,7 +244,7 @@ glimpse(animal_rescue)</code></pre>
 ## 10     2018   610
 ## 11     2019   604
 ## 12     2020   758
-## 13     2021   547</code></pre>
+## 13     2021   648</code></pre>
 <p>Let us try to see how many incidents we have by animal group. Again, we can do this either using group_by() and summarise(), or by using count()</p>
 <pre class="r"><code>animal_rescue %&gt;% 
   group_by(animal_group_parent) %&gt;% 
@@ -263,15 +261,15 @@ glimpse(animal_rescue)</code></pre>
 <pre><code>## # A tibble: 28 x 3
 ##    animal_group_parent              count percent
 ##    &lt;chr&gt;                            &lt;int&gt;   &lt;dbl&gt;
-##  1 Cat                               3736   48.1 
-##  2 Bird                              1611   20.7 
-##  3 Dog                               1213   15.6 
-##  4 Fox                                366    4.71
-##  5 Unknown - Domestic Animal Or Pet   199    2.56
-##  6 Horse                              195    2.51
-##  7 Deer                               132    1.7 
-##  8 Unknown - Wild Animal               93    1.2 
-##  9 Squirrel                            66    0.85
+##  1 Cat                               3783   48.0 
+##  2 Bird                              1631   20.7 
+##  3 Dog                               1230   15.6 
+##  4 Fox                                373    4.74
+##  5 Unknown - Domestic Animal Or Pet   201    2.55
+##  6 Horse                              195    2.48
+##  7 Deer                               136    1.73
+##  8 Unknown - Wild Animal               94    1.19
+##  9 Squirrel                            68    0.86
 ## 10 Unknown - Heavy Livestock Animal    50    0.64
 ## # ... with 18 more rows</code></pre>
 <pre class="r"><code>animal_rescue %&gt;% 
@@ -284,15 +282,15 @@ glimpse(animal_rescue)</code></pre>
 <pre><code>## # A tibble: 28 x 3
 ##    animal_group_parent              count percent
 ##    &lt;chr&gt;                            &lt;int&gt;   &lt;dbl&gt;
-##  1 Cat                               3736   48.1 
-##  2 Bird                              1611   20.7 
-##  3 Dog                               1213   15.6 
-##  4 Fox                                366    4.71
-##  5 Unknown - Domestic Animal Or Pet   199    2.56
-##  6 Horse                              195    2.51
-##  7 Deer                               132    1.7 
-##  8 Unknown - Wild Animal               93    1.2 
-##  9 Squirrel                            66    0.85
+##  1 Cat                               3783   48.0 
+##  2 Bird                              1631   20.7 
+##  3 Dog                               1230   15.6 
+##  4 Fox                                373    4.74
+##  5 Unknown - Domestic Animal Or Pet   201    2.55
+##  6 Horse                              195    2.48
+##  7 Deer                               136    1.73
+##  8 Unknown - Wild Animal               94    1.19
+##  9 Squirrel                            68    0.86
 ## 10 Unknown - Heavy Livestock Animal    50    0.64
 ## # ... with 18 more rows</code></pre>
 <p>Do you see anything strange in these tables?</p>

@@ -79,6 +79,10 @@ params:
         subtitle: Always strive to make data-driven decisions
         title: My resume
         url: blogs/resume
+      - image: pic7.jpg
+        subtitle: My life at London
+        title: London life begins
+        url: blogs/my_life
       - image: pic03.jpg
         subtitle: Data Manipulation and Data Visualization
         title: Pre-programme project 

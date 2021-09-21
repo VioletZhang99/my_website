@@ -1,0 +1,124 @@
+---
+categories:
+- ""
+- ""
+date: "2017-10-31T21:28:43-05:00"
+description: My first month at London 
+draft: false
+image: pic12.jpg
+keywords: ""
+slug: my_life
+title: My first month at London
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+My life at London begin at 28th August...
+
+### Leaving China
+
+```{r, echo=FALSE, out.width="60%"}
+knitr::include_graphics("/img/blogs/plane.jpg", error = FALSE)
+```
+
+### Welcome to the orientation at LBS!
+
+```{r, echo=FALSE, out.width="60%"}
+knitr::include_graphics("/img/blogs/orientation.jpg", error = FALSE)
+
+```
+
+### Bus tour!
+
+```{r, echo=FALSE, out.width="60%"}
+knitr::include_graphics("/img/blogs/bus.jpg", error = FALSE)
+
+```
+
+
+### English breakfast
+
+```{r, echo=FALSE, out.width="60%"}
+knitr::include_graphics("/img/blogs/brunch.jpg", error = FALSE)
+
+```
+
+### Standing towards the garden and listening the songs in rain
+
+```{r, echo=FALSE, out.width="60%"}
+knitr::include_graphics("/img/blogs/grass.jpg", error = FALSE)
+
+```
+
+### London eye
+
+```{r, echo=FALSE, out.width="60%"}
+knitr::include_graphics("/img/blogs/london_eye.jpg", error = FALSE)
+
+```
+
+### London bridge!
+
+```{r, echo=FALSE, out.width="60%"}
+knitr::include_graphics("/img/blogs/bridge.jpg", error = FALSE)
+
+```
+
+
+
+### First photo with friends
+
+```{r, echo=FALSE, out.width="60%"}
+knitr::include_graphics("/img/blogs/friend.jpg", error = FALSE)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,10 +2,10 @@
 categories:
 - ""
 - ""
-date: "2017-10-31T22:26:09-05:00"
-description: Lorem Etiam Nullam
+date: "2017-10-31T21:28:43-05:00"
+description: ""
 draft: false
-keywords: ""
+keywords: "pic08.jpg"
 slug: project1
 title: Project I -- German Elections 
 ---
